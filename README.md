@@ -1,5 +1,5 @@
 # java安全中的类加载
-
+> 提前声明：本文所涉及的内容仅供参考与教育目的，旨在普及网络安全相关知识。其内容不代表任何机构、组织或个人的权威建议，亦不构成具体的操作指南或法律依据。作者及发布平台对因使用本文信息直接或间接引发的任何风险、损失或法律纠纷不承担责任。
 ## 一、 ClassLoader(类加载机制)
 
  Java是一个依赖于JVM（Java虚拟机)实现的跨平台的开发语言。Java程序在运行前需要先编译成class文件，Java类初始化的时候会调用java.lang.ClassLoader加载类字节码，ClassLoader会调用JVM的 native方法（defineclass0/1/2)来定义一个java.lang.Class实例。
