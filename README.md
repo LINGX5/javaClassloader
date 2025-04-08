@@ -623,7 +623,9 @@ public class fastjsonRCE {
 ![image-20250211082606750](https://gitee.com/ling-x5/img/raw/master/image-20250211082606750.png)
 
 
+参考文章
 
+https://www.javasec.org/javase/ClassLoader/
 
 
 
